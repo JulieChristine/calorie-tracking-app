@@ -1,0 +1,26 @@
+html, body {
+}
+
+* {
+  border: black, solid, 1px;
+}
+
+.container {
+  $background-color: rgb(179, 223, 179);
+}
+
+
+h1 {
+  color: white;
+  font-style: Verdana;
+
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box { @include border-radius(10px); }

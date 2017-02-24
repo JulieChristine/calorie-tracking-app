@@ -1,0 +1,38 @@
+html, body {
+}
+/*
+* {
+  border: solid 2px black;
+}*/
+
+.container {
+  background-color: rgb(179, 223, 179);
+}
+
+
+h1, p, h4, h5, h3, label, button, select {
+  font-family: Courier;
+  padding: 8px;
+
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h1, h5 {
+  color: rgb(25, 163, 99);
+}
+
+h1, h5, h4 {
+  text-align: center;
+}
+
+label, h4, p {
+  color: white;
+}
+
+button {
+  background-color: Light-gray;
+  border-radius: 12%;
+}
