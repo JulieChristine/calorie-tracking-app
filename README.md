@@ -1,10 +1,24 @@
 # calorie-tracking-app
 <snippet>
   <content><![CDATA[
-# ${1:calorie-tracking-app}
+# $calorie-tracking-app
 A food tracking application. Users are able to log foods they’ve eaten during the day, including details about the meal and its number of calories.
+
 ## Installation
-Through the command line install Node (npm install) and Bower (bower install). 
+
+If you haven't worked with TypeScript and working in Atom, follow the next few step to setup:
+1. $ npm install typescript -g
+2. $ apm install atom-typescript
+
+follow the the step underneath to initialize your project: 
+To install the backend dependencies:  
+1. $ npm install
+
+To install the frontend dependencies:
+2. $ bower install 
+
+Install bootstrap:
+3. $ bower install bootstrap
 
 ## Usage
 This application makes it possible to:
@@ -21,4 +35,11 @@ Edit a food you have submitted - its name, details or calories (in case you deci
 5. Submit a pull request :D
 ]]></content>
   <tabTrigger>readme</tabTrigger>
+  
+## building your application 
+To compile all your files use:
+$ gulp build 
+
+To run your development server use:
+$ gulp serve 
 </snippet>
